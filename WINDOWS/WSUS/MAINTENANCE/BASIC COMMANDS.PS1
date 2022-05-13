@@ -1,0 +1,5 @@
+Invoke-WsusServerCleanup -CleanupUnneededContentFiles -CompressUpdates
+Invoke-WsusServerCleanup -DeclineSupersededUpdates
+Invoke-WsusServerCleanup -DeclineExpiredUpdates
+Invoke-WsusServerCleanup -CleanupObsoleteComputers
+Invoke-WsusServerCleanup -CleanupObsoleteUpdates
