@@ -1,0 +1,24 @@
+
+
+
+  vBurak  -  https://www.reddit.com/r/sysadmin/comments/dvr533/wsus_cleanup/
+_________________________________________________________________________________________________________________________________________________________________________
+  
+  Since, no cleanup really worked, I ended with following:
+
+  1.  Run the WsusDBMaintenance.sql script from https://gallery.technet.microsoft.com/scriptcenter/6f8cde49-5c52-4abd-9820-f1d270ddea61
+
+  2.  Go into WSUS console and look into the view "All updates" with "Approved"
+
+  3.  Set them to "Not approved" for top level. DO NOT CHOOSE DECLINE. Not approved brings them back into the original state.
+
+  4.  Run WSUS cleanup wizard with powershell:
+        Get-WsusServer -Name SERVER-NAME -UseSsl -Port 8531 | Invoke-WsusServerCleanup -CleanupObsoleteComputers -CleanupObsoleteUpdates -CleanupUnneededContentFiles -CompressUpdates | Out-File -FilePath $filepath -Append
+      This will remove any update from your server.
+
+  5.  Wait until clients have been informed WSUS about their update state.
+
+  6.  Approve necessary updates again.
+
+  I ran very good with this strategy. Ofcourse it is a little bit work, but actually quite simple.
+  I also run this script, which I modified for other update types, which removes Windows 10 versions, that are not supported anymore or ARM versions. https://gallery.technet.microsoft.com/Decline-WSUS-Update-Types-13fec5e0
