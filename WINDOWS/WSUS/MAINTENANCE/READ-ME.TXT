@@ -1,8 +1,15 @@
 
+DISABLE WSUS TIMOUTS  -  RitaHu-MSFT  -  https://docs.microsoft.com/en-us/answers/questions/234759/wsus-cleanup-aborts.html
+______________________________________________________________________________________________________________________________________________________________________
+
+  Please refer to the below steps to see whether this issue will be resolved or not:
+
+  Method 1.Open the SSMS as an administrator and connect to the WSUS database.
+  Right click on the server name, select Properties/Connections, set timeout from remote query timeout from 600 to 0 (= no timeout). Then run the server cleanup wizard   again and wait for the results. It would take lots of time to complete.
 
 
-  vBurak  -  https://www.reddit.com/r/sysadmin/comments/dvr533/wsus_cleanup/
-_________________________________________________________________________________________________________________________________________________________________________
+  CLEANUP INSTRUCTIONS  -  vBurak  -  https://www.reddit.com/r/sysadmin/comments/dvr533/wsus_cleanup/
+______________________________________________________________________________________________________________________________________________________________________
   
   Since, no cleanup really worked, I ended with following:
 
@@ -22,3 +29,5 @@ ________________________________________________________________________________
 
   I ran very good with this strategy. Ofcourse it is a little bit work, but actually quite simple.
   I also run this script, which I modified for other update types, which removes Windows 10 versions, that are not supported anymore or ARM versions. https://gallery.technet.microsoft.com/Decline-WSUS-Update-Types-13fec5e0
+
+
