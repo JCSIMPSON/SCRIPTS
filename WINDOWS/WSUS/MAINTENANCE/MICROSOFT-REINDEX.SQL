@@ -1,5 +1,15 @@
 -- https://docs.microsoft.com/en-us/troubleshoot/mem/configmgr/reindex-the-wsus-database 
 
+/******************************************************************************
+This sample T-SQL script performs basic maintenance tasks on SUSDB
+1. Identifies indexes that are fragmented and defragments them. For certain
+   tables, a fill-factor is set in order to improve insert performance.
+   Based on MSDN sample at http://msdn2.microsoft.com/en-us/library/ms188917.aspx
+   and tailored for SUSDB requirements
+2. Updates potentially out-of-date table statistics.
+******************************************************************************/
+
+
 USE SUSDB; 
 GO 
 SET NOCOUNT ON; 
