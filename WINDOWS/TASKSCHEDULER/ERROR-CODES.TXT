@@ -1,3 +1,7 @@
+Dhruv - http://www.yusufozturk.info/windows-server/task-scheduler-last-run-result-codes-explanations.html
+______________________________________________________________________________________________________________________________________________________________________
+
+
 0           The operation completed successfully.
 1           Incorrect function called or unknown function called.
 2           File not found.
