@@ -1,7 +1,7 @@
 # SCRIPTS
  - WINDOWS
     - TASK SCHEDULER
-       ERROR-CODES.TXT
+       - ERROR-CODES.TXT
     - WSUS
        - MAINTENANCE
             - BASIC-COMMANDS.PS1
