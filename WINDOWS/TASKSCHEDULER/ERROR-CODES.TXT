@@ -1,3 +1,7 @@
+MICROSOFT DOC - https://docs.microsoft.com/en-gb/windows/win32/taskschd/task-scheduler-error-and-success-constants?redirectedfrom=MSDN
+______________________________________________________________________________________________________________________________________________________________________
+
+
 Dhruv - http://www.yusufozturk.info/windows-server/task-scheduler-last-run-result-codes-explanations.html
 ______________________________________________________________________________________________________________________________________________________________________
 
