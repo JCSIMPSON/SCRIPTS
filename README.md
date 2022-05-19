@@ -1,1 +1,10 @@
 # SCRIPTS
+ - WINDOWS
+    - TASK SCHEDULER
+    - WSUS
+       - MAINTENANCE
+            - BASIC-COMMANDS.PS1
+            - DECLINE-SELECTED-UPDATES.PS1
+            - MICROSOFT-REINDEX.SQL
+            - WSUS-CLEANUP.PS1
+            - _READ-ME.TXT
