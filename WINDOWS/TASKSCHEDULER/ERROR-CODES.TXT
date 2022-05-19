@@ -1,0 +1,61 @@
+0           The operation completed successfully.
+1           Incorrect function called or unknown function called.
+2           File not found.
+10          The environment is incorrect.
+41300       The task is ready to run at its next scheduled time.
+41301       The task is currently running.
+41302       The task has been disabled.
+41303       The task has not yet run.
+41304       There are no more runs scheduled for this task.
+41305       One or more of the properties that are needed to run this task have not been set.
+41306       The last run of the task was terminated by the user.
+41307       Either the task has no triggers or the existing triggers are disabled or not set.
+41308       Event triggers do not have set run times.
+41325       The Task Scheduler service has asked the task to run.
+80010002    Call was canceled by the message filter
+80041309    A task’s trigger is not found.
+80041310    Unable to establish existence of the account specified.
+80041311    Corruption was detected in the Task Scheduler security database
+80041312    Task Scheduler security services are available only on Windows NT.
+80041313    The task object version is either unsupported or invalid.
+80041314    The task has been configured with an unsupported combination of account settings and run time options.
+80041315    The Task Scheduler Service is not running.
+80041316    The task XML contains an unexpected node.
+80041317    The task XML contains an element or attribute from an unexpected namespace.
+80041318    The task XML contains a value which is incorrectly formatted or out of range.
+80041319    The task XML is missing a required element or attribute.
+80041320    The task will not run because the user is not logged on.
+80041321    The task image is corrupt or has been tampered with.
+80041322    The Task Scheduler service is not available.
+80041323    The Task Scheduler service is too busy to handle your request. Please try again later.
+80041324    The Task Scheduler service attempted to run the task, but the task did not run due to one of the constraints in the task definition.
+80041326    The task is disabled.
+80041327    The task has properties that are not compatible with earlier versions of Windows.
+80041328    The task settings do not allow the task to start on demand.
+0004131B    The task is registered but not all specified triggers will start the task.
+0004131C    The task is registered but may fail to start. Batch logon privilege needs to be enabled for the task principal.
+8004130A    One or more of the properties required to run this task have not been set.
+8004130B    There is no running instance of the task.
+8004130C    The Task Scheduler service is not installed on this computer.
+8004130D    The task object could not be opened.
+8004130E    The object is either an invalid task object or is not a task object.
+8004130F    No account information could be found in the Task Scheduler security database for the task indicated.
+8004131A    The task XML is malformed.
+8004131D    The task XML contains too many nodes of the same type.
+8004131E    The task cannot be started after the trigger end boundary.
+8004131F    An instance of this task is already running.
+0004131B    The task is registered but not all specified triggers will start the task.
+0004131C    The task is registered but may fail to start. Batch logon privilege needs to be enabled for the task principal.
+8004130A    One or more of the properties required to run this task have not been set.
+8004130B    There is no running instance of the task.
+8004130C    The Task Scheduler service is not installed on this computer.
+8004130E    The object is either an invalid task object or is not a task object.
+8004130F    No account information could be found in the Task Scheduler security database for the task indicated.
+8004131A    The task XML is malformed.
+8004131D    The task XML contains too many nodes of the same type.
+8004131E    The task cannot be started after the trigger end boundary.
+8004131F    An instance of this task is already running.
+C000013A    The application terminated as a result of a CTRL+C.
+C0000142    The application failed to initialize properly.
+800704DD    The service is not available (is ‘Run only when an user is logged on’ checked?)
+C06D007E    Unknown software exception.
