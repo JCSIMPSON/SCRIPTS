@@ -1,3 +1,5 @@
+-- https://gist.github.com/ap0llo/5c5f5aadb885fe918000b248e5dd6e36
+
 # Powershell script to export Powerpoint slides as jpg images using the Powerpoint COM API
 
 function Export-Slide($PPTPath, $slideNumber, $outputFile)
