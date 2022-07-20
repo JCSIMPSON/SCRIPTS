@@ -15,3 +15,6 @@
           - MICROSOFT-REINDEX.SQL
           - WSUS-CLEANUP.PS1
           - _READ-ME.TXT
+ - CLOUD
+    - OFFICE365
+          - BULK-ADD-ALIAS-EMAIL.PS1
