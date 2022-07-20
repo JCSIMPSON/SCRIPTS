@@ -17,4 +17,4 @@
           - _READ-ME.TXT
  - CLOUD
     - OFFICE365
-          - BULK-ADD-ALIAS-EMAIL.PS1
+       - BULK-ADD-ALIAS-EMAIL.PS1
